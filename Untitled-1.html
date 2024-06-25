@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type=text], input[type=date], input[type=tel], input[type=email] {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  color: blue;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>نموذج الطلب</h2>
+
+<form id="myForm">
+  الأسم الكامل لمقدم الطلب: <input type="text" id="name" name="name" pattern="[أ-ي\s]*"><br>
+  الرقم الوطني: <input type="text" id="nationalId" name="nationalId" pattern="\d{11}"><br>
+  تاريخ الولادة: <input type="date" id="dob" name="dob"><br>
+  رقم الموبايل: <input type="tel" id="phone" name="phone" pattern="(0944|0994|0960|0933|0932|0931|0930)\d{6}"><br>
+  الإيميل: <input type="email" id="email" name="email"><br>
+  <input type="submit" value="إرسال">
+</form>
+
+<script>
+$(document).ready(function(){
+  $("#myForm").on("submit", function(event){
+    event.preventDefault();
+
+    
+  });
+});
+</script>
+
+</body>
+</html>

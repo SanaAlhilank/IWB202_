@@ -1,0 +1,94 @@
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th>المدينة</th>
+            <th>التفاصيل</th>
+            <th>المساحة</th>
+            <th>الإيجار الشهري</th>
+            <th>إظهار التفاصيل</th>
+            <th>اختيار</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة غرفة وصالة</td>
+            <td>70م²</td>
+            <td>500,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>حمص</td>
+            <td>دكان</td>
+            <td>50م²</td>
+            <td>250,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>شقة فارغة غرفتين وصالة</td>
+            <td>110م²</td>
+            <td>600,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>طرطوس</td>
+            <td>منزل مستقل</td>
+            <td>150م²</td>
+            <td>800,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>حلب</td>
+            <td>شقة فخمة</td>
+            <td>200م²</td>
+            <td>1,000,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>اللاذقية</td>
+            <td>دكان</td>
+            <td>40م²</td>
+            <td>300,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>مكتب عمل</td>
+            <td>120م²</td>
+            <td>700,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>حمص</td>
+            <td>شقة فارغة</td>
+            <td>90م²</td>
+            <td>400,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>دمشق</td>
+            <td>فيلا فخمة</td>
+            <td>300م²</td>
+            <td>2,500,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>اللاذقية</td>
+            <td>شقة مطلة على البحر</td>
+            <td>85م²</td>
+            <td>850,000 ل.س</td>
+            <td><button>اضغط هنا</button></td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </tbody>
+</table>
